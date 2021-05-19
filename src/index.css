@@ -86,3 +86,6 @@ textarea:focus {
   background-color: inherit;
   cursor: pointer;
 }
+.crossed-line {
+  text-decoration: line-through;
+}
