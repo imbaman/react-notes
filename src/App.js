@@ -8,18 +8,8 @@ const App = () => {
   const [notes, setNotes] = useState([
     {
       id: nanoid(),
-      text: "11111111",
-      date: "01/01/2001",
-    },
-    {
-      id: nanoid(),
-      text: "2222222",
-      date: "01/01/2001",
-    },
-    {
-      id: nanoid(),
-      text: "3333333",
-      date: "01/01/2001",
+      text: "Test note",
+      date: new Date().toLocaleDateString(),
     },
   ]);
 
